@@ -1,0 +1,934 @@
+/*home-page*/
+@media (min-width: 1200px) {
+    .fixed-top {
+        position: relative;
+    }
+	
+	nav.navbar.navbar-expand-sm.offcanvas-desktop .col-md-3 {
+		padding-left: 0;
+	}
+
+    .service-details .ser-details-img {
+        height: 410px;
+    }
+
+    .contact ul.social-icons {
+        width: 65%;
+    }
+
+    .location-temp .col-lg-7.col-md-12.cont-form {
+        padding: 0 18% 0 1%;
+    }
+
+    .track-faq form#searchform {
+        margin-right: -6%;
+        margin-left: 73%;
+    }
+
+    .track-faq h4 {
+        float: left;
+    }
+
+    .page-not-found .img-thumbnail img {
+        width: 510px;
+    }
+
+    .page-not-found .img-thumbnail {
+        position: absolute;
+    }
+
+    #login button.close {
+        margin-right: -60px;
+    }
+
+    .location-temp .col-lg-7.col-md-12.cont-form:after {
+        content: url(../images/all-img/loc-man.png);
+        position: absolute;
+        right: 68px;
+		bottom: 160px;
+    }
+
+    .contact .cont-desc .other-cont-area {
+        width: 400px;
+    }
+	
+
+	
+	.faq-section.about-us .title-section.t-border.pb-60 {
+		padding: 0 30px 30px 0px;
+	}
+	
+	.faq-section.about-us .col-lg-6.col-md-12, .faq-section.about-us .card-header {
+		padding-left: 0;
+	}
+	
+	.faq-section.about-us .card-body {
+		padding: 20px 30px;
+	}
+	
+	.who-section .who-desc {
+		padding: 0 0 0 15%;
+	}
+	
+	.who-section .about-img-inner {
+		padding: 40px 40px 0 40px;
+	}
+	
+	.offer-section .col-md-6.choose-desc ul {
+		height: 330px;
+	}
+	
+	.row {
+		margin: -5px 0!important;
+	}
+	
+	.service-details ul.list{
+	    margin-bottom: 25px;
+	}
+	
+	.col-lg-12.col-md-12.serv-para {
+		margin-bottom: 20px;
+		padding-left: 0;
+	}
+	
+	.service-details .ser-details-img, .service-details .ser-dess {
+		padding-left: 0;
+	}
+	
+	.blog-deatils .row.single-blog {
+		padding: 30px 0;
+	}	
+	
+	.blog-page .single-blog .text-left {
+		padding: 0;
+	}
+	
+	.blog-detail-page .comment-section a.pull_left_comment {
+		margin-top: 30px;
+		
+	}
+	
+	.blog_post {
+		background: url(../images/home-blog/blog-bg.png);
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .first-menu .fixed-top {
+        position: relative;
+    }
+
+    .first-menu .search-container input[type="text"] {
+        width: 100px;
+    }
+
+    /* #mainSlider .owl-carousel .carousel-caption {
+        top: 3%;
+    } */
+
+    .shiping-section .swiper-button-prev.swiper-button-prev6 {
+        left: 2%;
+    }
+
+    .shiping-section .swiper-button-next.swiper-button-next6 {
+        right: 2%;
+    }
+
+    /* #mainSlider .owl-stage-outer {
+        height: 560px;
+    } */
+
+    .service-section li {
+        display: flex;
+    }
+
+    .service-section ul.list {
+        padding: 0;
+    }
+
+    .service-section input, .service-section textarea, .service-section input.id {
+        width: 100%;
+    }
+
+    .service-section input[type="button"] {
+        margin: 20px 0 0 0;
+    }
+
+    .pricing-section .table-head h3 {
+        padding: 50px 95px;
+    }
+
+    .faq-section .card-body {
+        padding: 20px;
+    }
+
+    .team-section .swiper-button-next.swiper-button-white {
+        margin-right: -12%;
+    }
+
+    .testimonial-section .swiper-button-next.swiper-button-white {
+        margin: 0 0 0 55px;
+    }
+
+    .service-gallery .view p {
+        display: none;
+    }
+
+    .sidebar .searchform input {
+        width: 65%;
+    }
+
+    .blog-page .overlay-effect p {
+        display: none;
+    }
+
+    .blog-page .blog_post-catipon-inner.text-left {
+        padding: 20px 0;
+    }
+
+    .who-data .swiper-button-next.swiper-button-white {
+        margin-right: -28%;
+    }
+
+    .who-data .swiper-button-prev.swiper-button-white {
+        margin-right: 16%;
+    }
+}
+
+@media (max-width: 1366px) {
+.about-service .service-desc h3:after {
+	left: -100px;
+}
+}
+@media (max-width: 991px) {
+    #mainSlider .owl-carousel .icon,  .service-form .faq-section-title span:before, .faq-section .service-form .faq-section-title span:after, .choose-section .second-div, .about-us .faq-img, .about-service .service-desc h3:after, .about-faq .faq-desc {
+        display: none;
+    }
+
+    .first-menu.navbar-dark.bg-dark {
+        display: none;
+    }
+    #mainSlider .owl-carousel a.btn.btn-large.btn-2 {
+        margin-left: 15px;
+    }
+    /* #mainSlider .owl-carousel .carousel-caption {
+        top: 0;
+    } */
+
+    #mainSlider .owl-carousel h1 {
+        font-size: 45px;
+    }
+    .choose-section .choose-desc.second-div {
+        display: none;
+    }
+/* 
+    #mainSlider .owl-stage-outer {
+        height: 220px;
+    } */
+
+    .title-section span:before, .title-section span:after {
+        display: none;
+    }
+
+    .shiping-section i.fas.fa-angle-double-left, .shiping-section i.fas.fa-angle-double-right {
+        background-color: #dcb601;
+    }
+
+    .shiping-section {
+        background: none;
+    }
+
+    .shiping-section .shiping-data {
+        padding: 20px;
+        border: 1px solid #192538;
+    }
+
+    /* #shiping .swiper-container.shipping-bg {
+        padding-bottom: 0;
+    } */
+
+    .service-section ul.list, .offer-section ul {
+        padding: 0;
+    }
+
+    .service-section h3 {
+        font-size: 22px;
+    }
+
+    .service-section input, .service-section input.id {
+        width: 100%;
+    }
+
+    .service-section input[type="button"] {
+        margin: 29px 0;
+    }
+
+    .service-section textarea {
+        width: 100%;
+    }
+
+
+    .offer-section {
+        background: linear-gradient(120deg, rgba(0, 0, 0, 0.87) 63%, rgb(33, 33, 33) -30%), url(../images/all-img/adv-bg.jpg);
+    }
+
+    .pricing-section {
+        background-image: none;
+        background-color: var(--main-color);
+    }
+
+    .faq-section .col-md-6.faq-desc {
+        padding: 0px;
+    }
+
+    #faq.space2 {
+        padding-top: 100px;
+    }
+
+    .faq-section .col-md-6.faq-details {
+        padding: 20px;
+    }
+
+    .widgets-col {
+        width: 100%;
+    }
+
+    .coppy-right .col-md-4 {
+        text-align: center;
+    }
+
+    .coppy-right ul.footer-menu {
+        float: none;
+    }
+
+    .blog_post .post-img .img-fluid {
+        width: 100%;
+    }
+
+    .testimonial-section .swiper-button-prev.swiper-button-white {
+        margin: 0;
+        left: 34%;
+    }
+
+    .testimonial-section .swiper-button-next.swiper-button-white {
+        right: -60%;
+        margin: 0;
+    }
+
+    .pricing-section .table-head h3 {
+        padding: 40px 130px;
+    }
+
+    .pricing-section .pricingTable .pricing-content {
+        padding: 20px 0 20px 0;
+    }
+
+    .shiping-section .swiper-button-next.swiper-button-next6 {
+        right: 4%;
+    }
+
+    .shiping-section .swiper-button-prev.swiper-button-prev6 {
+        left: 2%;
+    }
+
+    .contact .form-desc h3 {
+        width: 100%;
+        display: inline-block;
+        margin: 0;
+        margin-top: 0;
+    }
+
+    .row.breadcrumb {
+        padding: 9% 10%;
+    }
+    #mainSlider .owl-carousel h4{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    #mainSlider .owl-carousel .carousel-caption p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) {
+    #login .modal-dialog {
+        max-width: 800px;
+		margin:20px auto;
+    }
+}
+
+@media (max-width: 551px) {
+    ul.navbar-nav {
+        margin-top: 20px;
+        max-height: 200px;
+        display: block;
+        width: 100%;
+        overflow: scroll;
+    }
+    .first-menu {
+    display: none !important;
+    background-color: #035fc1;
+}
+	
+	.blog-detail-page .media.comment_box {
+		display: block;
+	}
+
+    .navbar {
+        position: static;
+    }
+
+    .menu-bar .navbar-light .navbar-brand {
+        max-width: 47px !important;
+    }
+
+    #owl-main button.owl-prev, #owl-main button.owl-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    #owl-main .owl-prev, #owl-main .owl-next {
+        font-size: 24px;
+    }
+
+    .shiping-section .swiper-button-next.swiper-button-next6 {
+        right: 9%;
+        top: 40%;
+    }
+
+    .shiping-section .swiper-button-prev.swiper-button-prev6 {
+        left: 5%;
+        top: 40%;
+    }
+
+    .service-section li {
+        display: flex;
+    }
+
+    .service-section .icon {
+        padding: 10px 10px 0px 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+#login .login-img {
+    display: none;
+}
+.topnav {
+    text-align: center;
+}
+
+}
+@media (max-width: 768px) {
+    .first-menu.navbar-dark.bg-dark {
+        display: none;
+    }
+
+    .first-menu .fixed-top {
+        position: relative;
+    }
+	
+	.container.mob-sidebar a.navbar-brand.pb-2 {
+		width: 260px;
+    }
+
+    .pricing-section .table-head h3 {
+        padding: 40px 60px;
+        z-index: 9;
+    }
+	
+	.coppy-right a {
+		padding: 0 9px;
+	}
+
+    .team-section .swiper-button-next.swiper-button-white {
+        margin-right: -25%;
+    }
+
+    .team-section .swiper-button-prev.swiper-button-white {
+        margin-right: 53%;
+    }
+
+    .container.mob-sidebar {
+        display: block !important;
+    }
+
+    .mob-sidebar a.navbar-brand.pb-2 {
+        padding: 20px;
+    }
+
+    .top-content {
+        float: none !important;
+        padding: 20px 10px;
+    }
+
+    .tracking-app {
+        background-position: left;
+    }
+
+    .sidebar .searchform input {
+        width: 52%;
+    }
+
+    .who-data iframe {
+        width: 100%;
+    }
+
+    .who-data .swiper-button-next.swiper-button-white {
+        margin-right: -33%;
+    }
+
+    .who-data .swiper-button-next.swiper-button-white {
+        margin-right: -33%;
+    }
+
+    .who-section .who-desc {
+        padding: 0 15px;
+    }
+
+    .who-section .faq-section .card-body {
+        padding: 20px 0;
+    }
+
+    .faq-section .card-header {
+        padding: 10px;
+    }
+
+    .widgets-col {
+        width: 50%;
+    }
+    .best-service figure{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li {
+        float: left;
+    }
+
+    .first-menu .navbar-nav {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .widgets-col {
+        width: 100%;
+    }
+	
+	.breadcrumb .page-title.content-center {
+		padding: 5% 4% 14% 4%;
+	}
+	.blog-detail-page .comment-data {
+		display: table-column;
+	}
+    .service-details li {
+        display: flex;
+    }
+
+    .topnav ul.top-content {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .topnav ul.top-content.float-right {
+        text-align: center !important;
+    }
+
+    .topnav .navbar-light .navbar-toggler {
+        color: rgb(252, 208, 13);
+        border-color: rgb(252, 208, 13);
+    }
+
+    .topnav .navbar-light .navbar-toggler-icon {
+        background-image: none;
+        background-color: #007bff;
+    }
+
+    .container.top-bar {
+        text-align: center;
+    }
+
+    .topnav ul.top-content.float-right {
+        float: none !important;
+    }
+
+    #mainSlider .owl-carousel .carousel-caption {
+        top: 10%;
+    }
+
+    .faq-section .faq-details, .faq-section .faq-desc {
+        padding: 0px;
+    }
+
+    .row.breadcrumb {
+        padding: 9% 1%;
+    }
+
+    .breadcrumb h1 {
+        font-size: 35px;
+    }
+
+    .about-us #headingOne1, .about-us .card-body, .faq-section .title-section.t-border.pb-60, .accordion .card:not(:first-of-type) .card-header:first-child {
+        padding: 10px 0;
+    }
+
+    .about-service img.img-fluid {
+        float: none;
+    }
+
+    .about-service .service-desc {
+        text-align: center;
+    }
+
+    .about-service .service-desc p {
+        padding-left: 0;
+    }
+
+    .team-section .swiper-button-next.swiper-button-white {
+        margin-right: 30%;
+        top: 36px;
+    }
+
+    .team-section .swiper-button-prev.swiper-button-white {
+        margin-right: 58%;
+    }
+
+    .tracking-app {
+        background-color: #ffba42;
+    }
+
+    .about-faq .faq-details {
+        padding: 40px 0;
+    }
+
+    .about-faq {
+        padding: 60px 0;
+    }
+
+    .tracking-app #screen {
+        padding-top: 100%;
+    }
+
+    .faq-section .who-desc {
+        padding: 0 20px 0 20px;
+    }
+
+    .tracking-app .app-data h1 {
+        font-size: 42px;
+    }
+
+    .service-gallery .gallery-info {
+        width: 33%;
+    }
+
+    .service-gallery .view h3 {
+        font-size: 19px;
+        padding: 4px;
+        margin: 0;
+    }
+
+    .service-gallery .view .mask, .service-gallery .view .content {
+        left: 0;
+        padding: 5px;
+    }
+
+    .service-gallery .view p, #login .login-img {
+        display: none;
+    }
+
+    .service-gallery .view-first a.info {
+        padding: 4px 9px;
+        font-size: 12px;
+    }
+
+    .container.mob-sidebar a.navbar-brand.pb-2 {
+        padding: 20px 40px;
+    }
+
+    .container.mob-sidebar img {
+        width: 100%;
+        height: 50px;
+    }
+
+    .pricing-section .table-head h3 {
+        padding: 40px 130px;
+    }
+
+    .testimonial-section .swiper-pagination {
+        display: none;
+    }
+
+    /* .faq-section #headingOne1 {
+        padding:0 20px;
+    } */
+	
+	/* .faq-section .card:not(:first-of-type) .card-header:first-child {
+		padding: 10px 20px;
+	} */
+
+    .faq-section .service-form {
+        padding: 30px 0;
+    }
+
+    .faq-section .card-body {
+        padding: 10px;
+    }
+
+    /* .faq-section .title-section.t-border.pb-60 {
+        padding: 30px;
+    } */
+
+    .who-section .card-body {
+        padding: 20px 10px;
+    }
+
+    .tracking-app .app-data h2 {
+        font-size: 40.24px;
+    }
+
+    .blog-page .blog-deatils .title a {
+        font-size: 15px;
+    }
+
+    .blog-page .blog-deatils a .icon {
+        padding: 0px;
+    }
+
+    .blog_post-catipon-inner.text-left.text-center {
+        display: none;
+    }
+
+    .sidebar .searchform input {
+        width: 63%;
+    }
+
+    .blog-page .overlay-effect p {
+        color: #fff;
+        display: none;
+    }
+
+    .blog-page .overlay-effect {
+        padding: 30px;
+    }
+
+    .blog-page .overlay-effect h4 {
+        font-size: 18px;
+    }
+
+    .blog-detail-page .comment-section a.pull_left_comment {
+        width: 70px;
+        height: 70px;
+		margin-top: 40px;
+		display: block;
+    }
+
+    .blog-detail-page .comment-section a.btn.main-btn {
+        float: none;
+    }
+
+    .col-md-4.sidebar {
+        padding-top: 30px;
+    }
+
+    .page-not-found .no-data img {
+        display: none;
+    }
+
+    .page-not-found .no-data h2 {
+        font-size: 90px;
+    }
+
+    .page-not-found .no-data h3 {
+        font-size: 50px;
+    }
+
+    .page-not-found .no-data h4 {
+        font-size: 18px;
+    }
+
+    .contact .cont-desc .other-cont-area p {
+        font-size: 12px;
+    }
+
+    .contact .cont-desc .other-cont-area .col {
+        padding: 0;
+    }
+
+    .contact ul.social-icons a {
+        padding: 16px;
+    }
+
+    .contact .form-desc {
+        padding: 10px;
+    }
+
+    .who-data .swiper-button-next.swiper-button-white {
+        margin-right: -35%;
+    }
+
+    .who-data .swiper-button-prev.swiper-button-white {
+        margin-right: 21%;
+    }
+
+    .blog_post .swiper-container.blog-slider.swiper-container-horizontal {
+        padding: 0px;
+    }
+	
+	.about-service .mid-img {
+		float: none;
+		width: 100%;
+	}
+	
+	.sidebar .blog-sidebar-widgets h5:after{
+		display:none;	
+	}
+	
+	.container.mob-sidebar a.navbar-brand.pb-2 {
+		width: 241px;
+	}
+}
+
+@media screen and (min-width: 490px) and (max-width: 736px) {
+    /* .offer-section .content {
+        width: 390px;
+    } */
+
+    .col-md-4.sidebar {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .offer-section .content {
+        width: 200px;
+		font-size: 16px;
+    }
+
+.offer-section .item h4 {
+    transform: translate(-38px , -17px);
+}
+
+    /* #mainSlider .owl-stage-outer {
+        height: 170px;
+    } */
+
+    .pricing-section .table-head h3 {
+        padding: 40px 86px;
+    }
+
+    .faq-section .title-section {
+        padding: 10px 20px;
+    }
+
+    .service-section h3 {
+        margin-bottom: 25px;
+    }
+
+    .container.mob-sidebar a.navbar-brand.pb-2 {
+        padding: 6px 40px;
+        display: -webkit-box;
+    }
+
+    .mob-sidebar span.side-btn {
+        float: left;
+        margin-top: 5px;
+        background: transparent;
+    color: #fff;
+    }
+
+    .service-section input[type="button"] {
+        margin: 20px 0 20px 0;
+    }
+
+    #loginForm ul {
+        padding: 0;
+    }
+
+    #login a.btn-block {
+        padding: 4px 16px 4px 10px;
+    }
+
+    .top-content {
+        padding: 0;
+    }
+
+    .top-content li {
+        padding-right: 0;
+    }
+
+    .top-content li {
+        font-size: 14px;
+    }
+
+    .tracking-app .track_app img {
+        width: 120px;
+    }
+
+    .tracking-app .app-data {
+        padding: 10px 0;
+    }
+
+    .location-temp .form-desc .loc-bg {
+        background-color: var(--h-color);
+    }
+
+    .breadcrumb .send-btn {
+        padding: 20px 10px;
+    }
+
+    .who-section .about-img-inner {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+.faq-section .faq-details {
+    padding: 100px 15px;
+}
+.faq-section .faq-desc {
+    padding: 90px 15px 90px 15px;
+}
+#mainSlider .owl-carousel a.btn.btn-large{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+#mainSlider .owl-carousel h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+}
+@media only screen and (max-width: 480px) {
+    .testimonial-section .testimonial, .team-section .team {
+        text-align: center;
+    }
+
+    .testimonial-section .testimonial .pic, .team-section .team .pic {
+        float: none;
+    }
+
+    .testimonial-section .testimonial .testimonial-content, .team-section .team .team-content {
+        margin-left: 0;
+    }
+
+    .testimonial-section .owl-theme .owl-buttons, .team-section .owl-theme .owl-buttons {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+	.pricing-section .table-bg {
+		background-size: 100%;
+	}
+}
